@@ -5,7 +5,7 @@
 #include <string>
 using namespace std;
 
-class Keyboard //random comment
+class Keyboard // random comment
 {
    private:
       Keyboard();
