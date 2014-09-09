@@ -18,6 +18,7 @@ class ReadFile
 		virtual ~ReadFile();
 		String* readLine();
 		bool eof();
+		void close();
 };
 
 ReadFile* createReadFile(const char* file_name);
